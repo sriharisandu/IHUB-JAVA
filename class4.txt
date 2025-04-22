@@ -1,0 +1,136 @@
+Java
+======
+JDK		:	11
+
+Version		:	Java 8 	
+
+Creator		:	James Gosling 
+
+Vendor		:	Oracle Corporation 
+
+website		:	www.oracle.com/in/java/
+
+Open source	:	Open source
+
+Tutorials 	:	www.javatpoint.com 
+			www.javaus.com 
+			www.dzone.com 
+			www.tutorialspoint.com 
+			and etc.
+
+Download 	:	
+https://drive.google.com/file/d/1GtRLHXK4y3s97BH2UcYiJPNBaROR1DBV/view?usp=drive_link
+
+
+Steps to setup Java Environmental variables
+===========================================
+step1:
+-----
+	Make sure JDk 11 installed successfully.
+	
+
+step2:
+------
+	Copy "lib" directory from "java_home" folder.
+	ex:
+		C:\Program Files\Java\jdk-11\lib
+
+step3:
+------
+	Paste "lib" directory in environmental variables.
+	ex:
+		right click This PC --> properties --> advanced system settings -->
+		environmental variables --> user variables --> click to new button -->
+		variable Name :  CLASSPATH
+		variable value : C:\Program Files\Java\jdk-11\lib; --> ok. 
+
+		system variables --> click to new button --> 
+		variable name : path 
+		variable value : C:\Program Files\Java\jdk-11\bin; --> ok --> ok --> ok . 
+
+step4:
+-----
+	Check environmental setup done perfectly or not.
+	ex:
+		cmd> javap
+		cmd> java  -version 
+
+
+Steps to develop first java application development
+=====================================================
+step1:
+------
+	Make sure JDK 11 installed successfully.
+
+step2:
+-----
+	Make sure environmental setup done perfectly.
+
+step3:
+-----
+	Create a "javaprog" folder inside "D" drive.
+
+step4:
+------
+	Open the nodepad and develop Hello World program.
+	ex:
+		class Test 
+		{
+			public static void main(String[] args)
+			{
+				System.out.println("Hello World");
+			}
+		}		
+step5:
+------
+	Save above program with same name as class name inside "javaprog" folder.
+
+	
+
+step6:
+-----
+	Open the command prompt from "javaprog" location.
+
+
+step7:
+------
+	Compile the program by using below command.
+	ex:
+		javac  Test.java 
+			|
+			filename  
+
+step8:
+------
+	Run the program by using below command.
+	ex:
+		java   Test 		
+			|
+			classname 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
